@@ -1,1 +1,373 @@
+🧠 30-Day Cybersecurity Roadmap
 
+Focus: Active Directory → Linux → Attacking & Defending → Job-ready skills
+Outcome: You can build, break, and secure a Windows domain using Linux tools.
+
+📅 WEEK 1 — Active Directory Foundations (Build It Right)
+🎯 Goal
+
+Understand AD architecture, users, GPO, and authentication
+
+✅ Day 1 — Lab Setup (Non-Negotiable)
+
+Checklist
+
+⬜ Install VMware / VirtualBox
+
+⬜ Create Windows Server 2019/2022 VM
+
+⬜ Create Windows 10/11 VM
+
+⬜ Configure Internal / Host-Only Network
+
+⬜ Snapshot both VMs
+
+You should be able to answer:
+“What is a Domain Controller and why does AD need DNS?”
+
+✅ Day 2 — Domain & AD Basics
+
+Checklist
+
+⬜ Install AD DS role
+
+⬜ Promote server to Domain Controller
+
+⬜ Create domain (e.g. corp.local)
+
+⬜ Join client machine to domain
+
+⬜ Verify domain login works
+
+✅ Day 3 — Users, Groups, OUs
+
+Checklist
+
+⬜ Create OUs (IT, HR, Finance)
+
+⬜ Create users for each OU
+
+⬜ Create security groups
+
+⬜ Assign users to groups
+
+⬜ Practice least privilege
+
+Cyber insight:
+Over-permissioned groups = real breach cause #1
+
+✅ Day 4 — Group Policy (GPO)
+
+Checklist
+
+⬜ Create password policy GPO
+
+⬜ Create lockout policy
+
+⬜ Disable USB via GPO
+
+⬜ Map a network drive
+
+⬜ Understand LSDOU order
+
+✅ Day 5 — AD Authentication
+
+Checklist
+
+⬜ Learn Kerberos vs NTLM
+
+⬜ Understand tickets & hashes
+
+⬜ Locate AD event logs
+
+⬜ Inspect authentication logs
+
+✅ Day 6 — Review + Diagram
+
+Checklist
+
+⬜ Draw AD architecture diagram
+
+⬜ Explain AD out loud
+
+⬜ Snapshot your clean domain
+
+🧪 Day 7 — Mini Lab
+
+Checklist
+
+⬜ Add a weak password user
+
+⬜ Add over-privileged group
+
+⬜ Document vulnerabilities
+
+📅 WEEK 2 — Active Directory Attacks (Red Team)
+🎯 Goal
+
+Learn how AD is broken in the real world
+
+✅ Day 8 — Linux Setup (Kali)
+
+Checklist
+
+⬜ Install Kali Linux
+
+⬜ Update system
+
+⬜ Configure network to reach AD
+
+⬜ Install BloodHound + Neo4j
+
+✅ Day 9 — AD Enumeration
+
+Checklist
+
+⬜ Enumerate users & groups
+
+⬜ Enumerate shares
+
+⬜ Identify admin accounts
+
+⬜ Understand attack surface
+
+✅ Day 10 — Credential Attacks
+
+Checklist
+
+⬜ Understand Pass-the-Hash
+
+⬜ Understand Pass-the-Ticket
+
+⬜ Use Mimikatz (lab only)
+
+⬜ Identify credential storage
+
+✅ Day 11 — Kerberos Attacks
+
+Checklist
+
+⬜ AS-REP Roasting
+
+⬜ Kerberoasting
+
+⬜ Understand SPNs
+
+⬜ Crack hashes (lab passwords)
+
+✅ Day 12 — BloodHound Analysis
+
+Checklist
+
+⬜ Collect data with SharpHound
+
+⬜ Visualize attack paths
+
+⬜ Identify shortest path to Domain Admin
+
+⬜ Document misconfigs
+
+✅ Day 13 — Privilege Escalation
+
+Checklist
+
+⬜ Abuse weak ACLs
+
+⬜ Abuse group membership
+
+⬜ Understand DCSync
+
+⬜ Learn Golden Ticket (concept)
+
+🧪 Day 14 — Full AD Compromise
+
+Checklist
+
+⬜ Start as low user
+
+⬜ Escalate privileges
+
+⬜ Reach Domain Admin
+
+⬜ Write attack chain steps
+
+📅 WEEK 3 — Defense & Blue Team Skills
+🎯 Goal
+
+Learn how to detect and stop everything you just did
+
+✅ Day 15 — AD Hardening
+
+Checklist
+
+⬜ Apply strong password policy
+
+⬜ Disable NTLM where possible
+
+⬜ Enable LAPS
+
+⬜ Secure admin accounts
+
+✅ Day 16 — Logging & Monitoring
+
+Checklist
+
+⬜ Enable advanced audit policies
+
+⬜ Monitor authentication logs
+
+⬜ Identify suspicious logins
+
+⬜ Understand event IDs
+
+✅ Day 17 — Linux Blue Team (Ubuntu)
+
+Checklist
+
+⬜ Install Ubuntu LTS
+
+⬜ Learn systemctl
+
+⬜ Learn journalctl
+
+⬜ Secure SSH
+
+✅ Day 18 — Linux Security Basics
+
+Checklist
+
+⬜ User & permission hardening
+
+⬜ Firewall (ufw / iptables)
+
+⬜ Fail2Ban
+
+⬜ Log analysis
+
+✅ Day 19 — Attack Detection
+
+Checklist
+
+⬜ Detect Kerberos abuse
+
+⬜ Detect lateral movement
+
+⬜ Identify abnormal authentication
+
+🧪 Day 20 — Secure What You Broke
+
+Checklist
+
+⬜ Fix all AD misconfigs
+
+⬜ Re-run BloodHound
+
+⬜ Verify attack paths are gone
+
+🧠 Day 21 — Documentation Day
+
+Checklist
+
+⬜ Write a full lab report
+
+⬜ Add screenshots
+
+⬜ Prepare resume bullet points
+
+📅 WEEK 4 — Real-World Readiness
+🎯 Goal
+
+Turn skills into job-ready proof
+
+✅ Day 22 — Resume Project
+
+Checklist
+
+⬜ Title project: “Active Directory Attack & Defense Lab”
+
+⬜ Write problem → attack → mitigation
+
+⬜ Quantify impact
+
+✅ Day 23 — Interview Prep (AD)
+
+Checklist
+
+⬜ Explain Kerberos clearly
+
+⬜ Explain BloodHound
+
+⬜ Explain Pass-the-Hash
+
+⬜ Explain GPOs
+
+✅ Day 24 — Linux Interview Prep
+
+Checklist
+
+⬜ Permissions (rwx)
+
+⬜ SSH security
+
+⬜ Logs & processes
+
+⬜ Networking basics
+
+✅ Day 25 — CTF / Practice Lab
+
+Checklist
+
+⬜ Complete 1 AD-based lab
+
+⬜ Use Kali tools
+
+⬜ Write notes
+
+✅ Day 26 — Weak Areas Day
+
+Checklist
+
+⬜ Revisit confusing topics
+
+⬜ Rebuild small parts of lab
+
+⬜ Ask “why” not just “how”
+
+✅ Day 27 — Mock Interview
+
+Checklist
+
+⬜ Explain attack chain verbally
+
+⬜ Explain defense strategy
+
+⬜ Practice confidence
+
+✅ Day 28 — Portfolio Polish
+
+Checklist
+
+⬜ Clean documentation
+
+⬜ GitHub (if applicable)
+
+⬜ LinkedIn project description
+
+🧪 Days 29–30 — Final Challenge
+
+Checklist
+
+⬜ Rebuild AD from scratch
+
+⬜ Break it again
+
+⬜ Secure it properly
+
+⬜ You should feel dangerous 😄
+
+🏁 End Result (What You’ll Be Able To Say)
+
+✅ “I can deploy and secure Active Directory”
+✅ “I understand real-world AD attacks”
+✅ “I use Kali and Ubuntu professionally”
+✅ “I have a documented cyber lab project”
