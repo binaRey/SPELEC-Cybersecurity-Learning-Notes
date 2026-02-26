@@ -3,7 +3,6 @@
 **Author: Reynan S. Cortado**  
  **Platform: TryHackMe**  
  **Tools Used: THM Virtual Machine, AttackBox**
- **Topic: Linux Fundamentals**
 
 **Operating Systems Installed**
 
