@@ -1,8 +1,8 @@
 # **Linux Fundamentals Pt. 1 — TryHackMe Write-Up**
 
-**Author: Reynan S. Cortado**  
- **Platform: TryHackMe**  
- **Topic: Linux Fundamentals**
+**Author:** Reynan S. Cortado  
+ **Platform:** TryHackMe  
+ **Topic:** Linux Fundamentals
 
 **Operating Systems Used**
 
