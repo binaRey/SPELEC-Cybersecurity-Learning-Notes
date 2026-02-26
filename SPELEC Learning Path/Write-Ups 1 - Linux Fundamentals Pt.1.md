@@ -4,11 +4,11 @@
  **Platform: TryHackMe**  
  **Topic: Linux Fundamentals**
 
-**Operating Systems Installed**
+**Operating Systems Used**
 
-* **Ubuntu**
+* Ubuntu
 
-* **Kali Linux**
+* Kali Linux
 
 ---
 
