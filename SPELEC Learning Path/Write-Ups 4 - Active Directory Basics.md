@@ -2,7 +2,7 @@
 
 **Author:** Reynan S. Cortado  
 **Platform:** TryHackMe  
-**Topic:** Windows Domains & Active Directory Fundamentals
+**Topic:** Windows & Active Directory Fundamentals
 
 ---
 
