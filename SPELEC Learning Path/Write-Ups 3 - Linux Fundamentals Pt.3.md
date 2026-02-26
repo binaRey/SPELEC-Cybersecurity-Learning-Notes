@@ -1,8 +1,8 @@
 # **Linux Fundamentals Pt. 3 — TryHackMe Write-Up**
 
 **Author:** Reynan S. Cortado  
-**Platform:** TryHackMe
-**Topic:** Linux Fundamentals
+ **Platform:** TryHackMe
+ **Topic:** Linux Fundamentals
 
 ---
 
