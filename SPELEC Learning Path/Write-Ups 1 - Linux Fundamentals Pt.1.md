@@ -1,8 +1,9 @@
-# **Linux Fundamentals Pt. 1 — TryHackMe Writeup**
+# **Linux Fundamentals Pt. 1 — TryHackMe Write-Up**
 
 **Author: Reynan S. Cortado**  
  **Platform: TryHackMe**  
  **Tools Used: THM Virtual Machine, AttackBox**
+ **Topic: Linux Fundamentals**
 
 **Operating Systems Installed**
 
