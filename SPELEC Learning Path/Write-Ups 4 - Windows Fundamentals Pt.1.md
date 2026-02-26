@@ -1,8 +1,8 @@
-# **Windows Fundamentals Pt.1 — TryHackMe Writeup**
+# **Windows Fundamentals Pt.1 — TryHackMe Write-Up**
 
 **Author:** Reynan S. Cortado
-
 **Platform:** TryHackMe
+**Topic:** Windows & Active Directory Fundamentals
 
 ---
 
